@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Design</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!------------------------------------ Header ----------------------------------------->
+
+    <header class="header">
+      <div class="container">
+        <div class="header__items">
+          <a href="#" class="logo">
+            <img src="assets/img/Union.png" alt="Union" />
+            <span class="logo__text"
+              >Luminé <br />
+              Naturals</span
+            >
+          </a>
+
+          <div class="nav_bar">
+            <a href="">Shop</a>
+            <a href="">Cleansers</a>
+            <a href="">Moisturizers</a>
+            <a href="">Serums & Treatments</a>
+            <a href="">About Us</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- For Tab & Mobile -->
+    <span
+      class="toggle__btn"
+      style="font-size: 30px; cursor: pointer"
+      onclick="openNav()"
+      >&#9776;</span
+    >
+
+    <header id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="overlay-content">
+        <a href="">Shop</a>
+        <a href="">Cleansers</a>
+        <a href="">Moisturizers</a>
+        <a href="">Serums & Treatments</a>
+        <a href="">About Us</a>
+      </div>
+    </header>
+
+
+
+    <!------------------------- Home --------------------------- -->
+
+
+    <section class="home">
+        <div class="container">
+            <div class="home__content">
+                <div class="home__left">
+                    <h1>
+                        Harmony In Every Drop, <span class="secondery__color">Naturally Yours</span>
+                    </h1>
+
+                    <p>
+                        Experience the purity of skincare with our all-natural collection, thoughtfully created just for you. Unveil the beauty of wholesome ingredients working in harmony to nourish and revitalize your skin.
+                    </p>
+
+                    <a href="" class="btn">
+                        Shop Now
+                    </a>
+                </div>
+
+                <div class="home__right">
+                    <img src="assets/img/Home-bg.png" alt="Brand">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
