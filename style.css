@@ -77,6 +77,16 @@ a {
   font-weight: 500;
   line-height: 38px;
   letter-spacing: -0.46px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.nav_bar a:hover
+{
+  color: rgba(206, 223, 195, 0.95);
 }
 
 /* ------------------- Header For Tab / Mobile --------------------- */
@@ -196,15 +206,25 @@ a {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  line-height: 38px; /* 190% */
-  letter-spacing: -0.4px;
+  line-height: 38px;
+  /*190%*/letter-spacing: -0.4px;
   color: black;
   border: none;
+  transition: all 0.3s ease;
   border-radius: 50px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.home__left .btn:hover
+{
+  background-color: #f0f1f1;
 }
 
 .home__right img {
