@@ -284,28 +284,28 @@ a {
     padding: 20px;
   }
 
-  .home
-  {
+  .home {
     margin-top: 0rem;
   }
 
-  .logo img 
-  {
+  .logo img {
     width: 45px;
     height: 45px;
   }
 
-  .logo__text
-  {
+  .logo__text {
     font-size: 18px;
     line-height: 18px;
   }
 
-
-
   .header .container {
     padding: 0 20px;
   }
+
+  .home__left {
+    position: relative;
+  }
+
   .home__left h1 {
     font-size: 50px;
     line-height: 71px; /* 122.414% */
@@ -314,6 +314,8 @@ a {
   .home__left p {
     text-align: center;
     width: 80%;
+    font-size: 17px;
+    line-height: 22px;
     margin: 0 auto;
   }
 
@@ -324,9 +326,7 @@ a {
 }
 
 @media screen and (max-width: 500px) {
-
-  .home
-  {
+  .home {
     margin-top: 0rem;
   }
 
@@ -350,8 +350,7 @@ a {
     padding-bottom: 20px;
   }
 
-  .home__left .btn
-  {
+  .home__left .btn {
     font-size: 13px;
   }
   .home__right img {
