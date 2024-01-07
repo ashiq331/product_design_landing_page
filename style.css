@@ -156,6 +156,7 @@ a {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  padding-top: 80px;
 }
 
 .home__content {
@@ -251,7 +252,7 @@ a {
 
   .home {
     height: 100%;
-    margin-top: 10rem;
+    margin-top: 4rem;
     text-align: center;
   }
 
@@ -285,7 +286,7 @@ a {
 
   .home
   {
-    margin-top: 6rem;
+    margin-top: 0rem;
   }
 
   .logo img 
@@ -323,6 +324,12 @@ a {
 }
 
 @media screen and (max-width: 500px) {
+
+  .home
+  {
+    margin-top: 0rem;
+  }
+
   .home__left h1 {
     font-size: 38px;
     font-style: normal;
